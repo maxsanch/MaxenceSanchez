@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    background: #000107;
+}
+img{
+    width: 100%;
+}
+
+
+.top{
+    background: url(../img/ilya-pavlov-OqtafYT5kTw-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+header{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.deux{
+    display: flex;
+    gap: 60px;
+    margin-right: 60px;
+    
+}
+.section{
+    padding-bottom: 10px;
+}
+.deux>.section:first-child{
+    border-bottom: #E52165 2px solid;
+   
+}
+h1{
+    color: white;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+h2{
+    color: #E52165;
+    font-size: 40px;
+}
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: #E52165;
+}
+.bas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px;
+}
+.zwei{
+    display: flex;
+    color: white;
+    gap: 60px;
+
+}
+
+.contacts{
+    border: #fff solid 2px;
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 10px;
+}
+.reseaux{
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background: url(../img/dégradé.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sousfooter {
+    background: url(../img/dégradé.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: #fff solid 1px;
+    display: flex;
+    align-items: center;
+}
+
+.contactes {
+    font-size: 20px;
+}
+
+.bonjour>.contactes {
+    margin-bottom: 20px;
+}
+
+.droite {
+    margin-right: 2%;
+}
+
+
+/* liens du footer */
+.liens {
+    margin-left: 40px;
+    border-left: solid #fff;
+    padding-inline: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.liens2 {
+    margin-left: 40px;
+    border-left: solid #fff;
+    padding-inline: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.lienfooter {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lienfooter:hover {
+    color: #fff;
+}
+
+.res {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+.rese {
+    color: #fff;
+}
+
+.rese:hover {
+    color: #E52165;
+}
+
+.droite {
+    padding-inline: 20px;
+    border-left: solid 5px #fff;
+}
+
+.bonjour {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bonjour:hover {
+    color: rgb(228, 228, 228);
+}
+
+
+/* le carousel */
+
+.competence{
+    min-height: 100px;
+    align-content: center;
+    text-align: center;
+    display: none;
+
+}
+
+/* cases projet */
+
+.tp{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.trois{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 200px;
+    gap: 40px;
+    min-height: 60vh;
+}
+
+.case{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-content: end;
+}
+
+.case:nth-child(1){
+    background: url(../img/1.png);
+    background-size: cover;
+}
+.case:nth-child(2){
+    background: url(../img/2.png);
+    background-size: cover;
+}
+.case:nth-child(3){
+    background: url(../img/3.png);
+    background-size: cover;
+}
+
+.projet1{
+    padding: 40px;
+    opacity: 0;
+    transition: 0.4s;
+    text-align: center;
+    align-content: end;
+    min-height: 40vh;
+    background: linear-gradient(0deg, rgba(229,33,101,1) 0%, rgba(255,255,255,0) 100%);
+}
+.case:hover>.projet1{
+    opacity: 1;
+}
+
+
+/* le bandeau */
+
+
+.bandeau{
+    min-height: 40vh;
+    background: url(../img/fabian-irsara-67l-QujB14w-unsplash.jpg);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.text{
+    text-align: center;
+}
+.contact2{
+    width: 200px;
+    margin: 40px;
+    text-align: center;
+    padding: 20px;
+    border: white solid 1px;
+    border-radius: 10px;
+}
