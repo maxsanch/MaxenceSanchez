@@ -1,85 +1,158 @@
-body{
+body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
     background: #000107;
 }
-img{
+
+img {
     width: 100%;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
-.top{
+.top {
     background: url(../img/ilya-pavlov-OqtafYT5kTw-unsplash\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;display: grid;
+    min-height: 100vh;
+    display: grid;
     grid-template-rows: auto 1fr auto;
 }
 
 
-header{
+header {
     display: flex;
     color: white;
     align-items: center;
     justify-content: space-between;
 }
-.deux{
+
+.deux {
     display: flex;
     gap: 60px;
     margin-right: 60px;
-    
+
 }
-.section{
+
+.section {
     padding-bottom: 10px;
 }
-.deux>.section:first-child{
+
+.deux>.section:first-child {
     border-bottom: #E52165 2px solid;
-   
+
 }
-h1{
+
+h1 {
     color: white;
     margin-top: 30px;
     margin-left: 60px;
 }
 
-h2{
+h2 {
     color: #E52165;
     font-size: 40px;
 }
-.centre{
+
+.centre {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-span{
+
+span {
     color: #E52165;
 }
-.bas{
+
+.bas {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 60px;
 }
-.zwei{
+
+.zwei {
     display: flex;
     color: white;
     gap: 60px;
 
 }
 
-.contacts{
+.contacts {
     border: #fff solid 2px;
     padding: 10px;
     padding-inline: 20px;
     border-radius: 10px;
 }
-.reseaux{
+
+.reseaux {
     width: 60px;
 }
 
 
+.tout {
+    position: relative;
+    height: 50px;
+    /* Ajustez selon la hauteur de vos mots */
+    overflow: hidden;
+}
 
+.competence {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: Animation 4s infinite;
+}
 
+@keyframes Animation {
+
+    0%,
+    25% {
+        opacity: 0;
+        transform: translate(-50%, 0);
+    }
+
+    30%,
+    45% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+
+    50%,
+    100% {
+        opacity: 0;
+        transform: translate(-50%, 100%);
+    }
+}
+
+.competence:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.competence:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.competence:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.competence:nth-child(4) {
+    animation-delay: 3s;
+}
+
+.competence:nth-child(5) {
+    animation-delay: 4s;
+}
+
+.competence:nth-child(6) {
+    animation-delay: 6s;
+}
 
 
 
@@ -177,7 +250,7 @@ footer {
 
 /* le carousel */
 
-.competence{
+.competence {
     min-height: 100px;
     align-content: center;
     text-align: center;
@@ -187,12 +260,13 @@ footer {
 
 /* cases projet */
 
-.tp{
+.tp {
     display: flex;
     justify-content: center;
     margin: 40px;
 }
-.trois{
+
+.trois {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-inline: 200px;
@@ -200,36 +274,39 @@ footer {
     min-height: 60vh;
 }
 
-.case{
+.case {
     font-size: 20px;
     color: white;
     text-align: center;
     align-content: end;
 }
 
-.case:nth-child(1){
+.case:nth-child(1) {
     background: url(../img/1.png);
     background-size: cover;
 }
-.case:nth-child(2){
+
+.case:nth-child(2) {
     background: url(../img/2.png);
     background-size: cover;
 }
-.case:nth-child(3){
+
+.case:nth-child(3) {
     background: url(../img/3.png);
     background-size: cover;
 }
 
-.projet1{
+.projet1 {
     padding: 40px;
     opacity: 0;
     transition: 0.4s;
     text-align: center;
     align-content: end;
     min-height: 40vh;
-    background: linear-gradient(0deg, rgba(229,33,101,1) 0%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgba(229, 33, 101, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
-.case:hover>.projet1{
+
+.case:hover>.projet1 {
     opacity: 1;
 }
 
@@ -237,7 +314,7 @@ footer {
 /* le bandeau */
 
 
-.bandeau{
+.bandeau {
     min-height: 40vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fabian-irsara-67l-QujB14w-unsplash.jpg);
     margin-top: 100px;
@@ -250,16 +327,22 @@ footer {
     color: white;
 }
 
-.text{
+.text {
     text-align: center;
 }
-.contact2{
+
+.boutons {
     width: 200px;
     margin: 40px;
     text-align: center;
     padding: 20px;
     border: white solid 1px;
     border-radius: 10px;
+}
+
+.cellules {
+    display: flex;
+    gap: 40px;
 }
 
 .infos {
@@ -322,13 +405,14 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-.flexeee{
+
+.flexeee {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
-.compet>.molière:nth-child(1){
+.compet>.molière:nth-child(1) {
     grid-row: 2/ span 2;
 }
 
@@ -343,7 +427,90 @@ footer {
     width: 75%;
     margin-bottom: 40px;
 }
-.pourcent{
+
+.pourcent {
     width: 50px;
     margin-left: auto;
+}
+
+
+
+
+
+#bjr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gap {
+    gap: 60px;
+}
+
+
+.parent3 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte {
+    width: 600px;
+}
+
+.texte2 {
+    width: 1100px;
+}
+
+.titre {
+    color: #E52165;
+}
+
+.lechef {
+    display: flex;
+    justify-content: center;
+}
+
+.letout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boutontel {
+    border: #E52165 solid 5px;
+    border-radius: 23px;
+    box-shadow: 0 0 10px rgba(229, 33, 101, 1);
+    padding: 50px;
+    padding-inline: 100px;
+    transition: 0.5s;
+    color: #E52165;
+}
+
+.boutontel:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(229, 33, 101, 1);
+}
+
+.centre{
+    width: 500px;
+    position: relative;
+}
+
+.abso1{
+    position: absolute;
+}
+.abso2{
+    position: absolute;
+    left: 100%;
 }
