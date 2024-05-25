@@ -502,15 +502,85 @@ footer {
     box-shadow: 0 0 20px rgba(229, 33, 101, 1);
 }
 
+
+.projet{
+    background: #000107;
+    padding-bottom: 100px;
+    color: white;
+}
+.projet2{
+    background: #000107;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.informations{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+}
+.imagesposition{
+    display: flex;
+    justify-content: center;
+}
+.titrehaut{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 .centre{
-    width: 500px;
     position: relative;
+    z-index: 1;
+}
+
+.imagecentre{
+    width: 600px;
+    z-index: 1;
 }
 
 .abso1{
     position: absolute;
+    z-index: 0;
+    width: 500px;
+    right: -70%;
+    bottom: -10%;
+    animation: aimé 1s ease-in-out forwards;
+}
+
+@keyframes aimé{
+    from{
+        transform: translate(50%);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
 }
 .abso2{
+    width: 550px;
     position: absolute;
-    left: 100%;
+    z-index: 0;
+    left: -70%;
+    bottom: -10%;
+}
+
+.choix{
+    color: white;
+    display: grid;
+    padding: 50px;
+    width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    text-align: center;
+    border-bottom: 1px white solid;
+}
+.parentchoi{
+    display: flex;
+    justify-content: center;
+}
+
+.choixproj:hover{
+    color: #E52165;
 }
