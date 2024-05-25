@@ -8,27 +8,27 @@ const SAE = {
     "projet 2": {
       "titre": "Présentation du vélo générateur d'éléctricité",
       "description": "En tant que second projet officiel en vidéo, j'ai du réaliser une vidéo présentant le vélo générateur d'éléctricité réalisé par le lycée bugatti dans le but de le présenter par la suite, à Séléstat, nous avons alors chacun du, au sein de notre promotion réaliser cette vidéo afin que l'une d'entre elles soit projetée le jours de la conférence en parlant, à Séléstat.",
-      "étapes": "Comme beaucoup de projets ou de publicitées vidéo, plsuieurs étapes ont été nécéssaires, dans une premier temps, réaliser un découpage technique en analysant les attendus du client, ici, le lycée bugatti, puis, par la suite, rédiger notre texte explicatif dans un langage accéssible à tous, vulgarisé. enfin les rush ont étés pris et partagés au sein de la promotion afin que, par la suite, chaque personne ai pu réaliser individuellement ou en binome le montage de la vidéo."
+      "étapes": "Comme beaucoup de projets ou de publicitées vidéo, plsuieurs étapes ont été nécéssaires, dans une premier temps, réaliser un découpage technique en analysant les attendus du client, ici, le lycée bugatti, puis, par la suite, rédiger notre texte explicatif dans un langage accéssible à tous, vulgarisé. enfin les rush ont étés pris et partagés au sein de la promotion afin que, par la suite, chaque personne ai pu réaliser individuellement ou en binome le montage de la vidéo.",
     }
-  }
+  },
 
-    "web design": {
-    "projet 1"{
+  "web design": {
+    "projet 1": {
       "titre": "entrainement sur la page de coca cola",
       "description": "Pour ce projet j'ai réaliser une maquette figma de la page coca cola tout en modifiant certains éléments afin de rendre la page un peu plus personelle.",
       "étapes": "Pour réaliser ce projet je suis passé par plusieurs étapes, dans un premier temps j'ai du aller regarder la page du site Coca Cola france afin de m'en inspirer et de la recréer, j'ai ensuite ajouté des éléments plus personnels tels que les carousel et la manière de passer d'un élément à un autre, ou encore le haut de la page. j'ai du, par ailleur au préalable réaliser la bouteille sur illustrator afin de l'importer sur mon site."
-    }
-        "projet 2"{
+    },
+    "projet 2": {
       "titre": "maquette pour le site 'la tanière des loups",
       "description": "Ce projet partait d'une mise en scène en cours dans laquelle un client, ici, notr eenseignant nous à donné pour consigne de réaliser la maquette de son site parmi 3 thèmes.",
       "étapes": "Afin de créer cette maquette nous avons du réaliser plusieurs étapes. Dans un premier temps nosyu avons du préparer des questions à poser au client, partant à l'origine de seulement un simple nom, nous avons alors ensuite éfféctué le rendez-vous avec le client afin de comprendre ses attentes, les analyser, et passer enfin à la réalisation de la maquette."
-    }
-        "projet 3"{
+    },
+    "projet 3": {
       "titre": "Création d'un mode claire",
       "description": "Nous avons du réaliser sur figma une maquette d'un site trouvé sur dribble afin de, par la suite, le passer en mode claire.",
       "étapes": "Dans un premier temps j'ai alros eu besoin de recréer le site original sur Figma, par la suite, j'ai passé les différents objets en claire en me basant sur des bonnes pratiques."
-    }
-        "projet 4"{
+    },
+    "projet 4": {
       "titre": "maquette d'un site wiki God of War",
       "description": "Dans le cadre d'un projet de fin de seùestre nous avons eu pour consigne de réaliser un site web sur le thème de notr echoix, aimant beaucoup la mythologie nordique et le jeu God of War, je me suis alors inspirer de ce jeu afin de créer un wiki de ce dernier, le site devant impérativement contenir une base de donnée comptant un minimum de 3 tables avec des intéractions entre elles. J'ai alors réalisé une maquette afin de savoir ou me diriger.",
       "étapes": "Arpès avoir trouvé mon thème, je suis instantanément passé à la maquette, étape elle même intermédiaire de mon site final."
@@ -36,21 +36,21 @@ const SAE = {
   },
 
   "Web": {
-    "projet 1"{
+    "projet 1": {
       "titre": "Premier site portfolio",
-      "description": "Pour ce projet j'ai réalisert mon premier site portfolio, beaucoup plus scolaire et expliquant chaque compétence développées en détail, voici <a href='#>le lien</a> de ce dernier",
+      "description": "Pour ce projet j'ai réalisert mon premier site portfolio, beaucoup plus scolaire et expliquant chaque compétence développées en détail, voici le lien de ce dernier",
       "étapes": "Dans un premier temps j'ai du pour ce projet rédiger les texts que je comptait incruster dans ce portfolio, les justifications étant bien plsu importantes, par la suite, j'ai réalisé la maquette de ce dernier dans le but d'être plus efficace lors du développement de mon site. Enfin après la mise en place de ma banque de données en Javascript, j'ai pu passer au développemetn de ce dernier."
-    }
-        "projet 2"{
+    },
+    "projet 2": {
       "titre": "Site wordpress pour un festival de musique",
       "description": "J'ai également réalisé un site wordpress pour un fesitval de musique inventé par mon groupe et moi même constitué de 4 personnes.",
       "étapes": "Après avoir trouvé le thème du festival,n sa plateforme d emarque et sa manière d'être, j'ai pu réaliser une maqiuette figma afin de, par la suite, développer mon site sur Wordpress."
-    }
-        "projet 3"{
+    },
+    "projet 3": {
       "titre": "Site wiki sur God of war",
       "description": "nous avons alors eu à réaliser un site sur le thème de notre choix, j'ai pour ma part choisi god of war, le site se devait de contenir au moins 3 tables avec des intéractions entre elles.",
       "étapes": "J'ai alors dans un premier temps réaliser une maquette afin de, par la suite mettre en place ma base de données, enfin j'ai pu coimmencer à développer mon site internet."
-    }
+    },
   },
 
   "projet 3": {

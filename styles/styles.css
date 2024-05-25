@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #000107;
+    background: linear-gradient(110deg, #000000, #0d1137);
+    color: white;
 }
 
 img {
@@ -39,12 +40,32 @@ header {
 
 .section {
     padding-bottom: 10px;
+    position: relative;
+}
+.deux>.section:first-child>a {
+    color: #E52165;
+}
+.section a {
+    padding: 5px 0;
+    display: inline-block;
+    position: relative;
 }
 
-.deux>.section:first-child {
-    border-bottom: #E52165 2px solid;
-
+.section a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #E52165;
+    transition: width 0.3s ease-in-out;
 }
+
+.section>a:hover::after {
+    width: 100%;
+}
+
 
 h1 {
     color: white;
@@ -86,10 +107,52 @@ span {
     padding: 10px;
     padding-inline: 20px;
     border-radius: 10px;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
 }
 
+.contacts:hover {
+    transform: scale(1.2);
+}
+
+.contacts::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: inherit;
+    background: linear-gradient(45deg, rgba(229, 33, 101, 0.7), rgba(13, 17, 55, 0.7));
+    z-index: -1;
+    transition: opacity 0.4s;
+    opacity: 0;
+    filter: blur(15px);
+}
+
+.contacts:hover::before {
+    opacity: 1;
+    animation: moveGlow 2s linear infinite;
+}
+
+@keyframes moveGlow {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(10px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
 .reseaux {
     width: 60px;
+    transition: 0.4s;
+}
+.reseaux:hover{
+    transform: scale(1.2);
 }
 
 
@@ -509,16 +572,21 @@ footer {
     color: white;
 }
 .projet2{
-    background: #000107;
     padding-bottom: 100px;
     color: white;
 }
 
-.informations{
+.centreinfo{
     display: flex;
     justify-content: center;
-    margin: 20px;
+
+}
+
+.informations{
+    margin: 40px;
+    margin-bottom: 100px;
     text-align: center;
+    width: 1000px;
 }
 .imagesposition{
     display: flex;
@@ -537,8 +605,18 @@ footer {
 .imagecentre{
     width: 600px;
     z-index: 1;
+    animation: centre 1s ease-in-out forwards;
 }
-
+@keyframes centre{
+    from{
+        transform: translate(0, -50%);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
 .abso1{
     position: absolute;
     z-index: 0;
@@ -546,6 +624,7 @@ footer {
     right: -70%;
     bottom: -10%;
     animation: aimé 1s ease-in-out forwards;
+    animation-delay: 0.2s;
 }
 
 @keyframes aimé{
@@ -562,8 +641,21 @@ footer {
     width: 550px;
     position: absolute;
     z-index: 0;
+    opacity: 0;
     left: -70%;
     bottom: -10%;
+    animation: aimé2 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+}
+@keyframes aimé2{
+    from{
+        transform: translate(-50%);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
 }
 
 .choix{
