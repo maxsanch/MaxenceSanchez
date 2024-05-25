@@ -623,6 +623,7 @@ footer {
     width: 500px;
     right: -70%;
     bottom: -10%;
+    opacity: 0;
     animation: aimé 1s ease-in-out forwards;
     animation-delay: 0.2s;
 }
@@ -663,11 +664,24 @@ footer {
     display: grid;
     padding: 50px;
     width: 1000px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-content: center;
     text-align: center;
     border-bottom: 1px white solid;
+    animation: pop 0.7s forwards;
 }
+@keyframes pop{
+    0%{
+        transform: scale(0)
+    }
+    70%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 .parentchoi{
     display: flex;
     justify-content: center;
@@ -675,4 +689,5 @@ footer {
 
 .choixproj:hover{
     color: #E52165;
+
 }

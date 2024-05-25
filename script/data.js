@@ -43,7 +43,7 @@ const SAE = {
     },
     "projet 2": {
       "titre": "Site wordpress pour un festival de musique",
-      "description": "J'ai également réalisé un site wordpress pour un fesitval de musique inventé par mon groupe et moi même constitué de 4 personnes.",
+      "description": "J'ai également réalisé un site wordpress pour un fesitval de musique inventé par mon groupe et moi même constitué de 4 personnes. Le site est ",
       "étapes": "Après avoir trouvé le thème du festival,n sa plateforme d emarque et sa manière d'être, j'ai pu réaliser une maqiuette figma afin de, par la suite, développer mon site sur Wordpress."
     },
     "projet 3": {
@@ -52,29 +52,41 @@ const SAE = {
       "étapes": "J'ai alors dans un premier temps réaliser une maquette afin de, par la suite mettre en place ma base de données, enfin j'ai pu coimmencer à développer mon site internet."
     },
   },
+  "graphisme": {
+    "projet 1": {
+      "titre": "Production de motifs en tout genres",
+      "réalisation": "lors d'un projet de cours nous avons eu à « sauver le MISE », le musée d'impression sur tissue.<br>Nous avons alors du choisir un thème, pour ma part, les insectes volants, et créer des motifs afin de remplacer ceux qui ont été volés au MISE, le musée de l’impression sur étoffe, nous avons alors eu à créer des planches d’inspiration, des mockup et des motifs sur Illustrator pour ce travail.",
+      "étapes": "Dans un premier temps nous avons du produire des planches d'inpiration ou moodboards afin de savoir vers quel branche nous oienter, par la suite, nosu avons réaliser les motifs sur illustrator, enfin nosu els avons mis en situation dans différents espaces."
+    },
+    "projet 2": {
+      "titre": "réalisation d'un logo pour une agence de communication.",
+      "réalisation": "Une fois de plus lors 'un projet en cours, j'ai du réaliser un logo pour une agence de communication dans l'évenementiel, j'ai également du trouver un nom à cette agence, le nom de Lumicom, mettez vos projet en lumière est venu de ma représentation de l'idée, symbolisée par la lumière, l'ampoule.",
+      "étapes": "Après la réalisation de planches d'inspirations, j'ai pu alors réalsier le logo sur illustrator, par la suite j'ai fais des mockup dans le but de visualiser ce logo"
+    },
+    "projet 3": {
+      "titre": "réalisation d'un logo pour une marque de boissons energisante.",
+      "réalisation": "Lors de l'un des gros projets de fin de semestre, j'ai été amené à réaliser un logo pour une marque de boisson energisante (fictive) du nom de fire Up, un nom imposé.",
+      "étapes": "après avoir analyser ce que faisait la marque j'ai alors réalisé le logo à la plume sur illustrator pour ensuite le placer sur un mockup."
+    },
 
-  "projet 3": {
-    "titre": "Produire les éléments d’une communication visuelle",
-    "compétences": ["Exprimer"],
-    "description": "En tant qu’infographistes juniors, les étudiants doivent mener un travail de conception, de création et de production d’éléments visuels pour une campagne de communication telle que la couverture d’un événement, la sortie d’un produit ou un travail de positionnement d’une nouvelle marque.",
-    "AC": {
-      "AC13.02": "Produire des pistes graphiques et des planches d’inspiration",
-      "AC13.03": "Créer, composer et retoucher des visuels",
-      "AC13.06": "Optimiser les médias en fonction de leurs usages et supports de diffusion"
-    },
-    "ressources": {
-      "R1.08": "Production graphique",
-      "R1.09": "Culture artistique",
-      "R1.14": "Représentation et traitement de l’information"
-    },
-    "livrables": {
-      "Moodboard d'inspiration.": "Les étudiants ont réalisé un moodboard pour répertorier leurs inspirations.",
-      "motif sur illustrator.": "Les étudiants ont réalisé un motif sur illustrator afin de, par la suite, le placer sur un tissue.",
-      "Mockup sur Photoshop.": "Les étudiants ont réalisé un mocku de leur motif sur un tissue afin de visualiser le rendu final.",
-    },
-    "réalisation": "Pour cette troisième SAE nous avons eu à « sauver le MISE ».<br>Nous avons alors du choisir un thème, pour ma part, les insectes volants, et créer des motifs afin de remplacer ceux qui ont été volés au MISE, le musée de l’impression sur étoffe, nous avons alors eu à créer des planches d’inspiration, des mockup et des motifs sur Illustrator pour ce travail.",
-    "semestre": 1
+
   },
+  "divers": {
+    "projet 1": {
+      "titre": "création d'une fake news dans le cadre d'un projet.",
+      "réalisation": "Le but de cet exercice était de créer une fake news pour des enfants agés entre 8 et 13 ans, le but était que cette dernière soit crédible pour que, la page suivant, une leçon de fact cheking soit donnée.",
+      "étapes": "après avoir trouvée l'idée principale, adaptée pour le public visé, j'ai pu commencer à rédiger la fake news, par la suite, mon binome avec lequel j'était pour cette fake news, nommée Marie Raffath à réaliser la mise en page de cette dernière."
+    },
+    "projet 2": {
+      "titre": "analyse d'un site web sous différents angles.",
+      "réalisation": "Nosu avons du analyser un site web sur plusieurs aspects, technique, ergonomique, design, sémiologique, contextuel.",
+      "étapes": "Les analyses citées précédements ont été faites une par une, nosu avons pu également faire une analyse SEO de ce site durant le processus."
+    },
+    
+
+  },
+
+
 }
 const perso = {
   "dessin": {

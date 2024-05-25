@@ -45,3 +45,30 @@ function design() {
 
     document.querySelector('.total').innerHTML = projets
 }
+
+designe = document.querySelector('.choixproj:nth-child(4)')
+designe.addEventListener('click', graphisme)
+
+function graphisme() {
+    let projets = ""
+
+    for (let test in SAE['graphisme']) {
+        projets += "<div class='projet2'><div class='titrehaut'><h1>"+SAE['graphisme'][test]['titre']+"</h1></div><div class='centreinfo'><div class='informations'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci veniam iste dolor ea cupiditate soluta, sequi dolores cum autem facilis obcaecati corrupti laborum. Ad deserunt id molestias autem nobis?</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/tet.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/tet.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/tet.png' alt='rer'></div></div></div></div>"
+    }
+
+    document.querySelector('.total').innerHTML = projets
+}
+
+
+designe = document.querySelector('.choixproj:nth-child(5)')
+designe.addEventListener('click', divers)
+
+function divers() {
+    let projets = ""
+
+    for (let test in SAE['divers']) {
+        projets += "<div class='projet2'><div class='titrehaut'><h1>"+SAE['divers'][test]['titre']+"</h1></div><div class='centreinfo'><div class='informations'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci veniam iste dolor ea cupiditate soluta, sequi dolores cum autem facilis obcaecati corrupti laborum. Ad deserunt id molestias autem nobis?</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/tet.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/tet.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/tet.png' alt='rer'></div></div></div></div>"
+    }
+
+    document.querySelector('.total').innerHTML = projets
+}
