@@ -2,12 +2,12 @@ const SAE = {
     "vidéo": {
         "projet 1": {
             "titre": "Vidéo analyse de films en anglais.",
-            "description": "Etant un projet purement scolaire, j'ai été amené à réaliser une vidéo en anglais dans le cadre d'un travail de fin de semestre, en l'occurence ici pour mon premier semestre de cours en IUT, le but était de produire une vidéo pour des personnes cinéphiles analysant unt thème ou un auteur / compositeur au choix, pour notre part, nous avons choisi la distopie dans les films futuriste car ces thèmes nous intéréssaient. Moi et mon équipe, composée de 4 membres pour ce projet, avons finalement rendue une vidéo mettant en scène les différents univers analysés.",
+            "description": "J'ai été amené à réaliser une vidéo en anglais dans le cadre d'un travail de fin de semestre, en l'occurence ici pour mon premier semestre de cours en IUT dans ma formation BUT MMI, le but était de produire une vidéo pour des personnes cinéphiles analysant unt thème ou un auteur / compositeur au choix, pour notre part, nous avons choisi la distopie dans les films futuriste car ces thèmes nous intéréssaient. Moi et mon équipe, composée de 4 membres pour ce projet, avons finalement rendue une vidéo mettant en scène les différents univers analysés.",
             "étapes": "nous avons réspécté plusieures étapes afin d'assurer un rendu de qualitée, dans un premeier temps, nous avons du réalsier un découpage technique, par la suite, nosu avons du réaliser le tournage de la vidéo afin de, par la suite, monter cette dernière."
           },
           "projet 2": {
             "titre": "Présentation du vélo générateur d'éléctricité",
-            "description": "En tant que second projet officiel en vidéo, j'ai du réaliser une vidéo présentant le vélo générateur d'éléctricité réalisé par le lycée bugatti dans le but de le présenter par la suite, à Séléstat, nous avons alors chacun du, au sein de notre promotion réaliser cette vidéo afin que l'une d'entre elles soit projetée le jours de la conférence en parlant, à Séléstat.",
+            "description": "En tant que second projet officiel en vidéo, j'ai du réaliser une vidéo présentant le vélo générateur d'éléctricité réalisé par le lycée bugatti dans le but de le présenter par la suite, à Séléstat, nous avons alors chacun du, au sein de notre promotion réaliser cette vidéo afin que l'une d'entre elles soit projetée le jours de la conférence en parlant, à Séléstat. J'ai pour ma part réaliser une vidéo présentant chaque aspect du vélo sous forme de question réponse, une manière de traiter le sujet de manière ludique et accéssible à tous.",
             "étapes": "Comme beaucoup de projets ou de publicitées vidéo, plsuieurs étapes ont été nécéssaires, dans une premier temps, réaliser un découpage technique en analysant les attendus du client, ici, le lycée bugatti, puis, par la suite, rédiger notre texte explicatif dans un langage accéssible à tous, vulgarisé. enfin les rush ont étés pris et partagés au sein de la promotion afin que, par la suite, chaque personne ai pu réaliser individuellement ou en binome le montage de la vidéo."
           }
     }
@@ -15,12 +15,12 @@ const SAE = {
     "web design": {
         "projet 1"{
             "titre": "entrainement sur la page de coca cola",
-            "description": "Pour ce projet j'ai réaliser une maquette figma de la page coca cola tout en modifiant certains éléments afin de rendre la page un peu plus personelle.",
+            "description": "Pour ce projet j'ai réaliser une maquette figma de la page coca cola tout en modifiant certains éléments afin de rendre la page un peu plus personelle. nosu avons, tout au long du module avec notre enseignant, designer différents éléments qui ont du être par la suite utilisés dans cette maquette réalisable sur figma ou adobe XD au choix.",
             "étapes": "Pour réaliser ce projet je suis passé par plusieurs étapes, dans un premier temps j'ai du aller regarder la page du site Coca Cola france afin de m'en inspirer et de la recréer, j'ai ensuite ajouté des éléments plus personnels tels que les carousel et la manière de passer d'un élément à un autre, ou encore le haut de la page. j'ai du, par ailleur au préalable réaliser la bouteille sur illustrator afin de l'importer sur mon site."
         }
         "projet 2"{
             "titre": "maquette pour le site 'la tanière des loups",
-            "description": "Ce projet partait d'une mise en scène en cours dans laquelle un client, ici, notr eenseignant nous à donné pour consigne de réaliser la maquette de son site parmi 3 thèmes.",
+            "description": "Ce projet partait d'une mise en scène en cours dans laquelle un client, ici, notre enseignant nous à donné pour consigne de réaliser la maquette de son site parmi 3 thèmes. Nous avons alors choisi celui nous inspirant le plus, la tanière des loups, en compagnie de mon binome nous avosn alors dû interoger le client afin d'analyser ses attendus pour, par la suite, construire la maquette attendue",
             "étapes": "Afin de créer cette maquette nous avons du réaliser plusieurs étapes. Dans un premier temps nosyu avons du préparer des questions à poser au client, partant à l'origine de seulement un simple nom, nous avons alors ensuite éfféctué le rendez-vous avec le client afin de comprendre ses attentes, les analyser, et passer enfin à la réalisation de la maquette."
         }
         "projet 3"{
@@ -37,8 +37,8 @@ const SAE = {
   
     "Web": {
         "projet 1"{
-            "titre": "Premier site portfolio",
-            "description": "Pour ce projet j'ai réalisert mon premier site portfolio, beaucoup plus scolaire et expliquant chaque compétence développées en détail, voici <a href='#>le lien</a> de ce dernier",
+            "titre": "Mon premier site portfolio",
+            "description": "Pour ce projet j'ai réalisé mon premier site portfolio, ce dernier à été réalisé dans le cadre d'un projet scolaire en fin de semestre à gros coeficient, il s'agissait donc d'expliquer chaque compétence développées en détail, voici <a href='#'>le lien</a> de ce dernier",
             "étapes": "Dans un premier temps j'ai du pour ce projet rédiger les texts que je comptait incruster dans ce portfolio, les justifications étant bien plsu importantes, par la suite, j'ai réalisé la maquette de ce dernier dans le but d'être plus efficace lors du développement de mon site. Enfin après la mise en place de ma banque de données en Javascript, j'ai pu passer au développemetn de ce dernier."
         }
         "projet 2"{
