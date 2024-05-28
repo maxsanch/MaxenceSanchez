@@ -79,7 +79,7 @@ const SAE = {
     },
     "projet 2": {
       "titre": "analyse d'un site web sous différents angles.",
-      "réalisation": "Nosu avons du analyser un site web sur plusieurs aspects, technique, ergonomique, design, sémiologique, contextuel.",
+      "réalisation": "Nous avons du analyser un site web sur plusieurs aspects, technique, ergonomique, design, sémiologique, contextuel.",
       "étapes": "Les analyses citées précédements ont été faites une par une, nosu avons pu également faire une analyse SEO de ce site durant le processus."
     },
     
