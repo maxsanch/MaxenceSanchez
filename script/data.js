@@ -1,7 +1,7 @@
 const SAE = {
   "vidéo": {
     "projet 1": {
-      "titre": "Vidéo analyse de films en anglais.",
+      "titre": "Vidéo analyse de films en anglais",
       "description": "Etant un projet purement scolaire, j'ai été amené à réaliser une vidéo en anglais dans le cadre d'un travail de fin de semestre, en l'occurence ici pour mon premier semestre de cours en IUT, le but était de produire une vidéo pour des personnes cinéphiles analysant unt thème ou un auteur / compositeur au choix, pour notre part, nous avons choisi la distopie dans les films futuriste car ces thèmes nous intéréssaient. Moi et mon équipe, composée de 4 membres pour ce projet, avons finalement rendue une vidéo mettant en scène les différents univers analysés.",
       "étapes": "nous avons réspécté plusieures étapes afin d'assurer un rendu de qualitée, dans un premeier temps, nous avons du réalsier un découpage technique, par la suite, nosu avons du réaliser le tournage de la vidéo afin de, par la suite, monter cette dernière."
     },
@@ -19,7 +19,7 @@ const SAE = {
       "étapes": "Pour réaliser ce projet je suis passé par plusieurs étapes, dans un premier temps j'ai du aller regarder la page du site Coca Cola france afin de m'en inspirer et de la recréer, j'ai ensuite ajouté des éléments plus personnels tels que les carousel et la manière de passer d'un élément à un autre, ou encore le haut de la page. j'ai du, par ailleur au préalable réaliser la bouteille sur illustrator afin de l'importer sur mon site."
     },
     "projet 2": {
-      "titre": "maquette pour le site 'la tanière des loups",
+      "titre": 'maquette pour le site "la tanière des loups"',
       "description": "Ce projet partait d'une mise en scène en cours dans laquelle un client, ici, notr eenseignant nous à donné pour consigne de réaliser la maquette de son site parmi 3 thèmes.",
       "étapes": "Afin de créer cette maquette nous avons du réaliser plusieurs étapes. Dans un premier temps nosyu avons du préparer des questions à poser au client, partant à l'origine de seulement un simple nom, nous avons alors ensuite éfféctué le rendez-vous avec le client afin de comprendre ses attentes, les analyser, et passer enfin à la réalisation de la maquette."
     },

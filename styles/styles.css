@@ -42,9 +42,7 @@ header {
     padding-bottom: 10px;
     position: relative;
 }
-.deux>.section:first-child>a {
-    color: #E52165;
-}
+
 .section a {
     padding: 5px 0;
     display: inline-block;
@@ -689,5 +687,9 @@ footer {
 
 .choixproj:hover{
     color: #E52165;
+    cursor: pointer;
+}
 
+.choixproj2{
+    color: #E52165;
 }

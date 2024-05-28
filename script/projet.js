@@ -1,6 +1,7 @@
 let projets = ""
 
 for (let test in SAE['Web']) {
+    document.querySelector('.choixproj:nth-child(1)').classList.toggle('choixproj2')
     projets += "<div class='projet2'><div class='titrehaut'><h1>"+SAE['Web'][test]['titre']+"</h1></div><div class='centreinfo'><div class='informations'>"+SAE['Web'][test]['description']+"</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/Web/"+test+" 1.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/Web/"+test+" 2.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/Web/"+test+" 3.png' alt='rer'></div></div></div></div>"
 }
 
@@ -12,6 +13,7 @@ designe.addEventListener('click', video)
 
 function video() {
     let projets = ""
+    document.querySelector('.choixproj:nth-child(3)').classList.toggle('choixproj2')
 
     for (let test in SAE['vidéo']) {
         projets += "<div class='projet2'><div class='titrehaut'><h1>"+SAE['vidéo'][test]['titre']+"</h1></div><div class='centreinfo'><div class='informations'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci veniam iste dolor ea cupiditate soluta, sequi dolores cum autem facilis obcaecati corrupti laborum. Ad deserunt id molestias autem nobis?</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/tet.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/tet.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/tet.png' alt='rer'></div></div></div></div>"
