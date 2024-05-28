@@ -74,3 +74,7 @@ function divers() {
 
     document.querySelector('.total').innerHTML = projets
 }
+
+
+
+

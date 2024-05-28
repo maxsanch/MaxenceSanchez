@@ -1,34 +1,48 @@
-// // setInterval(changer, 1000);
+setInterval(changer, 1000);
 
-// // let i = 1
+let i = 1
 
-// // document.querySelector('.competence:nth-child(1)').style = "display:block"
+document.querySelector('.competence:nth-child(1)').style = "display:block"
 
-// // function changer() {
-// //     document.querySelector('.competence:nth-child(' + i + ')').style = "display:none"
-// //     i = i + 1
-// //     console.log(i)
-// //     document.querySelector('.competence:nth-child(' + i + ')').style = "display:block"
-// //     if (document.querySelector('.competence:nth-child(' + i + ')') == document.querySelector('.competence:last-child')) {
-// //         document.querySelector('.competence:nth-child(' + i + ')').style = "display:none"
-// //         i = 1
-// //         document.querySelector('.competence:nth-child(' + i + ')').style = "display:block"
-// //     }
-// // }
+function changer() {
+    document.querySelector('.competence:nth-child(' + i + ')').style = "display:none"
+    i = i + 1
+    console.log(i)
+    document.querySelector('.competence:nth-child(' + i + ')').style = "display:block"
+    if (document.querySelector('.competence:nth-child(' + i + ')') == document.querySelector('.competence:last-child')) {
+        document.querySelector('.competence:nth-child(' + i + ')').style = "display:none"
+        i = 1
+        document.querySelector('.competence:nth-child(' + i + ')').style = "display:block"
+    }
+}
 
+document.addEventListener("DOMContentLoaded", function() {
+    var header = document.querySelector("header");
+  
+    window.addEventListener("scroll", function() {
+      var scrollPosition = window.scrollY;
+  
+      if (scrollPosition > 50) {
+        header.classList.add("scroll"); 
+      } else {
+        header.classList.remove("scroll");
+      }
+    });
+});
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     const words = ["Cinquième", "Sixième", "Septième"];
-//     const container = document.querySelector('.tout');
+document.querySelector('.bouton').addEventListener('click', couleure)
 
-//     words.forEach((word, index) => {
-//         const span = document.createElement('span');
-//         span.className = 'competence';
-//         span.style.animationDelay = `${(index + 4) * 1}s`; // Ajuste les délais en fonction des nouveaux mots
-//         span.textContent = word;
-//         container.appendChild(span);
-//     });
-// });
+function couleure(){
+    if(document.querySelector('.bouton').innerHTML == 'claire'){
+        document.querySelector('.bouton').innerHTML='sombre'
+        document.querySelector('link').href="styles/styles2.css"
+    }
+    else{
+        document.querySelector('.bouton').innerHTML='claire'
+        console.log(document.querySelector('.bouton').innerHTML)
+        document.querySelector('link').href="styles/styles.css"
+    }
+}
 
 
 
