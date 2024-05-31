@@ -42,7 +42,7 @@ function design() {
     let projets = ""
 
     for (let test in SAE['web design']) {
-        projets += "<div class='projet2'><div class='titrehaut'><h1>"+SAE['web design'][test]['titre']+"</h1></div><div class='centreinfo'><div class='informations'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci veniam iste dolor ea cupiditate soluta, sequi dolores cum autem facilis obcaecati corrupti laborum. Ad deserunt id molestias autem nobis?</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/tet.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/tet.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/tet.png' alt='rer'></div></div></div></div>"
+        projets += "<div class='projet2'><div class='titrehaut'><h1>"+SAE['web design'][test]['titre']+"</h1></div><div class='centreinfo'><div class='informations'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci veniam iste dolor ea cupiditate soluta, sequi dolores cum autem facilis obcaecati corrupti laborum. Ad deserunt id molestias autem nobis?</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/web design/"+test+" 1.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/web design/"+test+" 2.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/web design/"+test+" 3.png' alt='rer'></div></div></div></div>"
     }
 
     document.querySelector('.total').innerHTML = projets

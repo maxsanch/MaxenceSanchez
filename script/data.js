@@ -15,16 +15,16 @@ const SAE = {
   "web design": {
     "projet 1": {
       "titre": "entrainement sur la page de coca cola",
-      "description": "Pour ce projet j'ai réaliser une maquette figma de la page coca cola tout en modifiant certains éléments afin de rendre la page un peu plus personelle. nosu avons, tout au long du module avec notre enseignant, designer différents éléments qui ont du être par la suite utilisés dans cette maquette réalisable sur figma ou adobe XD au choix.",
+      "description": "Pour ce projet j'ai réaliser une maquette figma de la page coca cola tout en modifiant certains éléments afin de rendre la page un peu plus personelle. nous avons, tout au long du module avec notre enseignant, designer différents éléments qui ont du être par la suite utilisés dans cette maquette réalisable sur figma ou adobe XD au choix.",
       "étapes": "Pour réaliser ce projet je suis passé par plusieurs étapes, dans un premier temps j'ai du aller regarder la page du site Coca Cola france afin de m'en inspirer et de la recréer, j'ai ensuite ajouté des éléments plus personnels tels que les carousel et la manière de passer d'un élément à un autre, ou encore le haut de la page. j'ai du, par ailleur au préalable réaliser la bouteille sur illustrator afin de l'importer sur mon site."
     },
     "projet 2": {
-      "titre": "maquette pour le site 'la tanière des loups",
+      "titre": "maquette pour le site la tanière des loups",
       "description": "Ce projet partait d'une mise en scène en cours dans laquelle un client, ici, notre enseignant nous à donné pour consigne de réaliser la maquette de son site parmi 3 thèmes. Nous avons alors choisi celui nous inspirant le plus, la tanière des loups, en compagnie de mon binome nous avosn alors dû interoger le client afin d'analyser ses attendus pour, par la suite, construire la maquette attendue",
       "étapes": "Afin de créer cette maquette nous avons du réaliser plusieurs étapes. Dans un premier temps nosyu avons du préparer des questions à poser au client, partant à l'origine de seulement un simple nom, nous avons alors ensuite éfféctué le rendez-vous avec le client afin de comprendre ses attentes, les analyser, et passer enfin à la réalisation de la maquette."
     },
     "projet 3": {
-      "titre": "Création d'un mode claire",
+      "titre": "passage du mode sombre au claire",
       "description": "Nous avons du réaliser sur figma une maquette d'un site trouvé sur dribble afin de, par la suite, le passer en mode claire.",
       "étapes": "Dans un premier temps j'ai alros eu besoin de recréer le site original sur Figma, par la suite, j'ai passé les différents objets en claire en me basant sur des bonnes pratiques."
     },
