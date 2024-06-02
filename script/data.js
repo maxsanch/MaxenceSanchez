@@ -28,11 +28,6 @@ const SAE = {
       "description": "Nous avons du réaliser sur figma une maquette d'un site trouvé sur dribble afin de, par la suite, le passer en mode claire.",
       "étapes": "Dans un premier temps j'ai alros eu besoin de recréer le site original sur Figma, par la suite, j'ai passé les différents objets en claire en me basant sur des bonnes pratiques."
     },
-    "projet 4": {
-      "titre": "maquette d'un site wiki God of War",
-      "description": "Dans le cadre d'un projet de fin de seùestre nous avons eu pour consigne de réaliser un site web sur le thème de notr echoix, aimant beaucoup la mythologie nordique et le jeu God of War, je me suis alors inspirer de ce jeu afin de créer un wiki de ce dernier, le site devant impérativement contenir une base de donnée comptant un minimum de 3 tables avec des intéractions entre elles. J'ai alors réalisé une maquette afin de savoir ou me diriger.",
-      "étapes": "Arpès avoir trouvé mon thème, je suis instantanément passé à la maquette, étape elle même intermédiaire de mon site final."
-    },
   },
 
   "Web": {
@@ -47,9 +42,9 @@ const SAE = {
       "étapes": "Après avoir trouvé le thème du festival, sa plateforme de marque et sa manière d'être, j'ai pu réaliser une maqiuette figma afin de, par la suite, développer mon site sur Wordpress."
     },
     "projet 3": {
-      "titre": "Site wiki sur God of war",
-      "description": "Encore un fois pour un projet de fin de semestre, nous avons eu à réaliser un site sur le thème de notr echoix, j'ai pour ma part choisi God of war, le site se devait de contenir au moins 3 tables avec des intéractions entre elles, notre site à alors dû être codé en php mais aussi en SQL.",
-      "étapes": "J'ai alors dans un premier temps réaliser une maquette afin de, par la suite, mettre en place ma base de données SQL. Enfin j'ai pu commencer à développer mon site internet en HTML/php, CSS et JS."
+      "titre": "Site god of war",
+      "description": "Nosu avons du réaliser au sein de mon second semestre de BUT MMi, un site dynamique sur le thème de notre choix, c'est alros que j'ai choixi le thème du jeu god of war que j'apprécie beaucoup, nosu avosn alros utilisé des langages tels que php ou SQL ains iqu'une abse de données dans le but de rendre notre site dynamique, via, par exemple, un système de commentaires.",
+      "étapes": "Après avoir trouvé le thème du festival, sa plateforme de marque et sa manière d'être, j'ai pu réaliser une maqiuette figma afin de, par la suite, développer mon site sur Wordpress."
     },
   },
   "graphisme": {
@@ -64,9 +59,9 @@ const SAE = {
       "étapes": "Après la réalisation des planches d'inpiration, j'ai réalisé le logo sur illsutrator, j'ai ensuite du justifier dans le document chacun de mes choix afin d'être pret pour le rendu."
     },
     "projet 3": {
-      "titre": "Site wiki sur God of war",
-      "description": "Encore un fois pour un projet de fin de semestre, nous avons eu à réaliser un site sur le thème de notr echoix, j'ai pour ma part choisi God of war, le site se devait de contenir au moins 3 tables avec des intéractions entre elles, notre site à alors dû être codé en php mais aussi en SQL.",
-      "étapes": "J'ai alors dans un premier temps réaliser une maquette afin de, par la suite, mettre en place ma base de données SQL. Enfin j'ai pu commencer à développer mon site internet en HTML/php, CSS et JS."
+      "titre": "réalisation d'un logo pour une boisson énergisante",
+      "description": "Dans le cadre du projet de communication 360 d'un festival de musique, j'ai été ammené à réaliser un logo sur illustrator pour l'agence de communication s'occupant de la campagne de communication de ce festival. Ce logo est celui d'une agence de communication dans l'évenementiel, j'ai également du trouver un nom et créer cette agence. Le nom de lumicom et l'ampoule liée à la lumière est venue de ma représentatiojn de l'idée (utilisée principalement dans les cartoons)",
+      "étapes": "Après la réalisation des planches d'inpiration, j'ai réalisé le logo sur illsutrator, j'ai ensuite du justifier dans le document chacun de mes choix afin d'être pret pour le rendu."
     },
   },
   "divers": {
