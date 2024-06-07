@@ -313,6 +313,7 @@ footer {
     font-size: 20px;
     color: white;
     text-align: center;
+    position: relative;
     align-content: end;
 }
 
@@ -336,11 +337,21 @@ footer {
     opacity: 0;
     transition: 0.4s;
     text-align: center;
-    align-content: end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     min-height: 40vh;
     background: linear-gradient(0deg, rgba(229, 33, 101, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
+.proj{
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .case:hover>.projet1 {
     opacity: 1;
 }
