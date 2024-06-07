@@ -24,7 +24,7 @@ function video() {
     let projets = ""
 
     for (let test in SAE['vidéo']) {
-        projets += "<a href='projetsdétail.html?domaine=vidéo&projet="+test+"'><div class='projet2'><div class='titrehaut'><h1>"+SAE['vidéo'][test]['titre']+"</h1></div><div class='centreinfo'><div class='informations'>"+SAE['vidéo'][test]['description']+"</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/video/"+test+" 1.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/video/"+test+" 3.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/video/"+test+" 2.png' alt='rer'></div></div></div></div></a>"
+        projets += "<a href='projetsdétail.html?domaine=vidéo&projet="+test+"'><div class='projet2'><div class='titrehaut'><h1>"+SAE['vidéo'][test]['titre']+"</h1></div><div class='centreinfo'><div class='informations'>"+SAE['vidéo'][test]['description']+"</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/vidéo/"+test+" 1.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/vidéo/"+test+" 3.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/vidéo/"+test+" 2.png' alt='rer'></div></div></div></div></a>"
     }
 
     document.querySelector('.total').innerHTML = projets

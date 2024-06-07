@@ -13,3 +13,18 @@ document.querySelector('.txt').innerHTML = SAE[dom][LaSAE]['description']
 
 document.querySelector('#deux').innerHTML= '<img src="../img/imagesprojets/'+dom+'/'+LaSAE+' 3.png" alt="illustration_projet">'
 document.querySelector('#txtdeux').innerHTML = SAE[dom][LaSAE]['étapes']
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var header = document.querySelector("header");
+  
+    window.addEventListener("scroll", function() {
+      var scrollPosition = window.scrollY;
+  
+      if (scrollPosition > 50) {
+        header.classList.add("scroll"); 
+      } else {
+        header.classList.remove("scroll");
+      }
+    });
+});
