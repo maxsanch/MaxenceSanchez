@@ -700,7 +700,7 @@ footer {
 .infos2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 80px;
 }
 
 .tel2{
@@ -711,7 +711,6 @@ footer {
 }
 .illus2{
     width: 100%;
-
 }
 
 #premier{
