@@ -33,7 +33,7 @@ const SAE = {
   "Web": {
     "projet 1": {
       "titre": "Mon premier site portfolio",
-      "description": "Pour ce projet j'ai réalisé mon premier site portfolio, ce dernier à été réalisé dans le cadre d'un projet scolaire en fin de semestre à gros coeficient, il s'agissait donc d'expliquer chaque compétence développées en détail, ces compétences étaient regroupées sous forme d'ACs ou apprentissages critiques, les renseignements de ce portfolio n'étant pas accordées à ma vision d'unsite vitrine, j'ai préféré recréer un site web portfolio regroupant de nouveaux traveaux et les mettant en scène. Voici <a href='#'>le lien</a> de ce dernier",
+      "description": "Pour ce projet j'ai réalisé mon premier site portfolio, ce dernier à été réalisé dans le cadre d'un projet scolaire en fin de semestre à gros coeficient, il s'agissait donc d'expliquer chaque compétence développées en détail, ces compétences étaient regroupées sous forme d'ACs ou apprentissages critiques, les renseignements de ce portfolio n'étant pas accordées à ma vision d'unsite vitrine, j'ai préféré recréer un site web portfolio regroupant de nouveaux traveaux et les mettant en scène. Voici <a href='#'><u>le lien</u> </a> de ce dernier",
       "étapes": "Dans un premier temps j'ai du pour ce projet rédiger les texts que je comptait incruster dans ce portfolio, les justifications étant bien plsu importantes, par la suite, j'ai réalisé la maquette de ce dernier dans le but d'être plus efficace lors du développement de mon site. Enfin après la mise en place de ma banque de données en Javascript, j'ai pu passer au développemetn de ce dernier."
     },
     "projet 2": {

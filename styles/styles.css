@@ -35,8 +35,8 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    padding: 20px;
-    padding-inline: 40px;
+    padding: 10px;
+    padding-inline: 20px;
 }
 
 header::before {
@@ -105,8 +105,12 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-
+.centre>h1{
+    font-size: 55px;
+    margin: none;
+}
 span {
     color: #E52165;
 }
@@ -180,10 +184,12 @@ span {
 
 
 .tout {
-    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.competence>h2{
+    margin: none;
 }
 
 
@@ -667,4 +673,34 @@ footer {
 
 .choixproj2{
     color: #E52165;
+}
+
+#haut{
+    margin-top: 20vh;
+}
+
+
+.infos2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.tel2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-inline: 70px;
+}
+.illus2{
+    width: 100%;
+}
+
+
+
+.centrage{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 40px;
 }

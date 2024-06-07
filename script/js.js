@@ -17,17 +17,17 @@ function changer() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    var header = document.querySelector("header");
-  
-    window.addEventListener("scroll", function() {
-      var scrollPosition = window.scrollY;
-  
-      if (scrollPosition > 50) {
-        header.classList.add("scroll"); 
-      } else {
-        header.classList.remove("scroll");
-      }
-    });
+  var header = document.querySelector("header");
+
+  window.addEventListener("scroll", function() {
+    var scrollPosition = window.scrollY;
+
+    if (scrollPosition > 50) {
+      header.classList.add("scroll"); 
+    } else {
+      header.classList.remove("scroll");
+    }
+  });
 });
 
 document.querySelector('.bouton').addEventListener('click', couleure)
