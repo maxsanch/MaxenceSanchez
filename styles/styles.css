@@ -408,6 +408,12 @@ footer {
 
 .illus {
     width: 500px;
+    animation: ram infinite 10s;
+}
+@keyframes ram{
+    50%{
+        transform: translate(-1%, -2%);
+    }
 }
 
 .texte {
@@ -705,9 +711,38 @@ footer {
 }
 .illus2{
     width: 100%;
+
 }
 
+#premier{
+    animation: forwards 1s ease-in-out bouger;
+    opacity: 0;
+}
 
+@keyframes bouger {
+    from{
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#deux{
+    animation: forwards 1s ease-in-out débouger;
+    opacity: 0;
+}
+
+@keyframes débouger {
+    from{
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 
 .centrage{
     display: flex;
