@@ -20,7 +20,7 @@ if (rat == "video") {
     }
 
     document.querySelector('.total').innerHTML = projets
-    document.querySelector('.choixproj:nth-child(3)').style.color = "#E52165"
+    document.querySelector('#drei').style.color = "#E52165"
 }
 
 
@@ -33,7 +33,7 @@ if (rat == "web design") {
     }
 
     document.querySelector('.total').innerHTML = projets
-    document.querySelector('.choixproj:nth-child(2)').style.color = "#E52165"
+    document.querySelector('#zwei').style.color = "#E52165"
     
 }
 
@@ -45,7 +45,7 @@ if (rat == "graphisme") {
     }
 
     document.querySelector('.total').innerHTML = projets
-    document.querySelector('.choixproj:nth-child(4)').style.color = "#E52165"
+    document.querySelector('#vier').style.color = "#E52165"
 }
 
 
@@ -57,7 +57,7 @@ if (rat == "divers") {
     }
 
     document.querySelector('.total').innerHTML = projets
-    document.querySelector('.choixproj:nth-child(5)').style.color = "#E52165"
+    document.querySelector('#funf').style.color = "#E52165"
 }
 
 
