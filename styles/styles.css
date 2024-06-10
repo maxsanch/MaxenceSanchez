@@ -916,5 +916,43 @@ footer {
 
 .CV:hover{
     transform: scale(1.1);
+}
+.deroutel{
+    display: none;
+}
+.deroutelo{
+    display: block;
+}
 
+
+@media (max-width:600px){
+    body {
+        font-size: 14px;
+    }
+    
+    /* header du site  */
+    
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .header2{
+        background: linear-gradient(110deg, #0D1137, #000000 );
+    }
+    .deux:nth-child(2){
+        display: none;
+    }
+    .cont {
+        display: none;
+    }
+    .menutel{
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .deroutel{
+        padding: 10%;
+    
+    }
+    
 }

@@ -30,19 +30,18 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-document.querySelector('.bouton').addEventListener('click', couleure)
+var oui = document.querySelector(".menutel");
+var deroulant = document.querySelector(".deroutel")
 
-function couleure(){
-    if(document.querySelector('.bouton').innerHTML == 'claire'){
-        document.querySelector('.bouton').innerHTML='sombre'
-        document.querySelector('link').href="styles/styles2.css"
+// menu déroulant téléphone
+
+oui.addEventListener("click", function() {
+    if(deroulant.classList.contains('deroutelo')){
+      document.querySelector(".deroutel").classList.remove("deroutelo");
+      document.querySelector("header").classList.remove("header2");
     }
     else{
-        document.querySelector('.bouton').innerHTML='claire'
-        console.log(document.querySelector('.bouton').innerHTML)
-        document.querySelector('link').href="styles/styles.css"
+      document.querySelector(".deroutel").classList.add("deroutelo");
+      document.querySelector("header").classList.add("header2");
     }
-}
-
-
-
+  });
