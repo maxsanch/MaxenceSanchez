@@ -5,7 +5,7 @@ if (rat == "Web") {
     let projets = ""
 
     for (let test in SAE['Web']) {
-        projets += "<a href='projetsdétail.html?domaine=Web&projet=" + test + "'><div class='projet2'><div class='titrehaut'><h1>" + SAE['Web'][test]['titre'] + "</h1></div><div class='centreinfo'><div class='informations'>" + SAE['Web'][test]['description'] + "</div></div><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/Web/" + test + " 1.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/Web/" + test + " 2.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/Web/" + test + " 3.png' alt='rer'></div></div></div></div></a>"
+        projets += "<div class='projet2'><a href='projetsdétail.html?domaine=Web&projet=" + test + "'><div class='titrehaut'><h1>" + SAE['Web'][test]['titre'] + "</h1></div><div class='centreinfo'><div class='informations'>" + SAE['Web'][test]['description'] + "</div></div></a><a href='projetsdétail.html?domaine=Web&projet=" + test + "'><div class='imagesposition'><div class='centre'><div class='imagecentre'><img src='../img/imagesprojets/Web/" + test + " 1.png' alt='rer'></div><div class='abso1'><img src='../img/imagesprojets/Web/" + test + " 2.png' alt='rer'></div><div class='abso2'><img src='../img/imagesprojets/Web/" + test + " 3.png' alt='rer'></div></div></div></a></div>"
     }
 
     document.querySelector('.total').innerHTML = projets

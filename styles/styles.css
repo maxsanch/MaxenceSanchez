@@ -284,7 +284,6 @@ footer {
     color: rgb(228, 228, 228);
 }
 
-
 /* le carousel */
 
 .competence {
@@ -897,4 +896,23 @@ footer {
     border-radius: 23px;
     background-color: #e52165;
     box-shadow: 0 0 10px rgba(229, 33, 101, 1);
+}
+
+
+.container_CV{
+    display: flex;
+    justify-content: center;
+}
+
+.CV{
+    padding: 20px;
+    padding-inline: 180px;
+    border: #E52165 solid 1px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.CV:hover{
+    transform: scale(1.1);
+
 }

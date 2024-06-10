@@ -37,7 +37,7 @@ const SAE = {
       "étapes": "Dans un premier temps j'ai dû, pour ce projet, rédiger les textes que je comptais incruster dans ce portfolio, les justifications étant bien plus importantes, par la suite, j'ai réalisé la maquette de ce dernier dans le but d'être plus efficace lors du développement de mon site. Enfin après la mise en place de ma banque de données en Javascript, j'ai pu passer au développement de ce dernier."
     },
     "projet 2": {
-      "titre": "Site wordpress pour un festival de musique",
+      "titre": "Site WordPress pour un festival de musique",
       "description": "Dans le cadre de la communication 360 d'un festival de musique fictif, nous avons été amené à produire un site web présentant ce dernier, il s'agissait pour notre part, à moi et mon groupe de 4 personnes, de créer un festival de rock et de métal sur le thème d'Halloween. Nous avons alors dû utiliser des couleurs majoritairement sombres dans le thème d'Halloween correspondant à notre charte graphique.",
       "étapes": "Après avoir trouvé le thème du festival, sa plateforme de marque et sa manière d'être, j'ai pu réaliser une maquette figma afin de, par la suite, développer mon site sur Wordpress."
     },
