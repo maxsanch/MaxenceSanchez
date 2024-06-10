@@ -818,7 +818,9 @@ footer {
 #gap {
     gap: 60px;
 }
-
+.a{
+    cursor: pointer;
+}
 
 /* maison */
 
