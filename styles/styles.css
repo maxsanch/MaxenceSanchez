@@ -3,6 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(110deg, #000000, #0d1137);
     color: white;
+    overflow-x: hidden;
 }
 
 img {
@@ -31,12 +32,13 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 1000001;
+    z-index: 101;
     top: 0;
     left: 0;
     right: 0;
     padding: 10px;
     padding-inline: 20px;
+
 }
 
 header::before {
@@ -732,7 +734,7 @@ footer {
 .tel2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     margin-inline: 70px;
     position: relative;
     z-index: 2;
@@ -781,8 +783,6 @@ footer {
     margin-top: 20vh;
     margin-bottom: 40px;
 }
-
-
 
 
 .parenta {
@@ -1019,6 +1019,43 @@ footer {
     }
 }
 
+.tourner{
+    border: 8px solid #f3f3f300;
+    border-top: 8px solid #e52165;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(110deg, #000000, #0d1137);
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: forwards fincharge 0.8s ease-in-out;
+    animation-delay: 3s;
+}
+
+@keyframes fincharge{
+    50%{
+        transform: translateX(100%);
+    }
+    100%{
+        display: none;
+        transform: translateX(100%);
+    }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
 @media (max-width:600px) {
     body {
