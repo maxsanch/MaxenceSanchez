@@ -2,7 +2,7 @@ const SAE = {
   "vidéo": {
     "projet 1": {
       "titre": "Vidéo analyse de films en anglais.",
-      "description": "J'ai été amené à réaliser une vidéo en anglais dans le cadre d'un travail de fin de semestre, en l'occurrence ici pour mon premier semestre de cours en IUT dans ma formation BUT MMI, le but était de produire une vidéo pour des personnes cinéphiles analysant unt thème ou un auteur-compositeur au choix, pour notre part, nous avons choisi la dystopie dans les films futuriste car ces thèmes nous intéréssaient. Moi et mon équipe, composée de 4 membres pour ce projet, avons finalement rendu une vidéo mettant en scène les différents univers analysés.",
+      "description": "<p>J'ai été amené à réaliser une vidéo en anglais dans le cadre d'un travail de fin de semestre, en l'occurrence ici pour mon premier semestre de cours en IUT dans ma formation BUT MMI.</p><p> Le but était de produire une vidéo pour des personnes cinéphiles analysant unt thème ou un auteur-compositeur au choix. </p><p>Pour notre part, nous avons choisi la dystopie dans les films futuriste car ces thèmes nous intéréssaient.</p><p> Moi et mon équipe, composée de 4 membres pour ce projet, avons finalement rendu une vidéo mettant en scène les différents univers analysés.</p>",
       "étapes": "nous avons réspécté plusieures étapes afin d'assurer un rendu de qualitée, dans un premeier temps, nous avons du réalsier un découpage technique, par la suite, nosu avons du réaliser le tournage de la vidéo afin de, par la suite, monter cette dernière."
     },
     "projet 2": {

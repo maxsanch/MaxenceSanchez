@@ -734,10 +734,13 @@ footer {
     justify-content: center;
     margin-bottom: 40px;
     margin-inline: 70px;
+    position: relative;
+    z-index: 2;
 }
 
 .illus2 {
     width: 100%;
+    z-index: 100;
 }
 
 #premier {
@@ -966,16 +969,54 @@ footer {
     transform: scale(1.1);
 }
 
-.deroutel {
+.menutel {
     display: none;
 }
-
+.deroutel{
+    display: none;
+}
 .deroutelo {
     display: block;
 }
 
 #petit {
     display: none;
+}
+
+.caché {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boule{
+    padding: 40px;
+    background: linear-gradient(#E52165, #0d1137);
+    position: absolute;
+    z-index: 0;
+    right: -55px;
+    top: -50px;
+    border-radius: 64% 40% 50% 61%;
+    animation: bouger2 10s infinite ease-in-out;
+}
+#boule2{
+    right: auto;
+    top: auto;
+    left: -55px;
+    bottom: -50px;
+}
+
+@keyframes bouger2{
+    25%{
+        border-radius: 50% 57% 50% 80%;
+        transform: translate(-6%, 10%);
+    }
+    75%{
+        border-radius: 51% 50% 62% 61%;
+        transform: translate(8%, 6%);
+    }
 }
 
 
@@ -1087,9 +1128,8 @@ footer {
     #grand {
         display: none;
     }
-
-    #petit {
-        display: block;
+    #petit{
+        display: flex;
     }
 
 
@@ -1099,15 +1139,8 @@ footer {
         color: #E52165;
     }
 
-    .top {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
     .prenom {
-        margin-top: 15%;
+        margin-top: 25%;
         font-size: 11px;
     }
 
@@ -1116,6 +1149,117 @@ footer {
     }
 
     .domaine {
-        font-size: 17px;
+        font-size: 16px;
     }
+
+    /* footer du site */
+    /* footer du site */
+
+    footer {
+        background: linear-gradient(110deg, #0D1137, #e5216676);
+        display: grid;
+        gap: 40px;
+    }
+
+    .sousfooter {
+        background: linear-gradient(110deg, #0D1137, #e5216676);
+        background-size: cover;
+        background-attachment: fixed;
+        border-top: #fff solid 1px;
+        text-align: center;
+    }
+
+    .contactes {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bonjour>.contactes {
+        margin-bottom: 20px;
+    }
+
+    .droite {
+        display: none;
+    }
+
+
+    /* liens du footer */
+
+    .liens2 {
+        font-size: 20px;
+    }
+
+    /* bandeau du site */
+
+    .bandeau {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .boutons {
+        width: 200px;
+        margin: 40px;
+        text-align: center;
+        padding: 20px;
+        border: white solid 1px;
+        border-radius: 10px;
+        transition: 0.4s;
+    }
+
+    .boutons:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 50px rgba(229, 33, 101, 26);
+    }
+
+    .cellules {
+        display: block;
+    }
+
+    /* changements du bouton CV */
+
+    .container_CV {
+        display: flex;
+        justify-content: center;
+    }
+
+    .CV {
+        padding: 10px;
+        padding-inline: 70px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    /* projets */
+
+    .trois {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-inline: 40px;
+        gap: 30px;
+    }
+
+    .projet1 {
+        position: relative;
+        display: flex;
+        opacity: 1;
+    }
+    .proj {
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+}
 }
