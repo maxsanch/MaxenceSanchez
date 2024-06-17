@@ -30,10 +30,11 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-var oui = document.querySelector(".menutel");
-var deroulant = document.querySelector(".deroutel")
 
 // menu déroulant téléphone
+
+var oui = document.querySelector(".menutel");
+var deroulant = document.querySelector(".deroutel")
 
 oui.addEventListener("click", function() {
     if(deroulant.classList.contains('deroutelo')){

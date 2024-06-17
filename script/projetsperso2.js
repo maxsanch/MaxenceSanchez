@@ -40,3 +40,19 @@ if(persoss == '3D 1' || persoss == '3D 2' || persoss == '3D 3' || persoss == '3D
   document.querySelector("#tt").innerHTML = perso['TroisD'][persoss]
   document.querySelector('#projperso').innerHTML = '<img src="../img/3D/'+persoss+'.jpg" alt="dessin">'
 }
+
+// menu déroulant téléphone
+
+var oui = document.querySelector(".menutel");
+var deroulant = document.querySelector(".deroutel")
+
+oui.addEventListener("click", function() {
+    if(deroulant.classList.contains('deroutelo')){
+      document.querySelector(".deroutel").classList.remove("deroutelo");
+      document.querySelector("header").classList.remove("header2");
+    }
+    else{
+      document.querySelector(".deroutel").classList.add("deroutelo");
+      document.querySelector("header").classList.add("header2");
+    }
+  });
