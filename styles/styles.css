@@ -1398,9 +1398,144 @@ footer {
         }
     }
 
+    .texte2 {
+        width: auto;
+        color: white;
+    }
 
-    /* footer sur mobile */
 
+    /* contacts */
+    .lechef {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .letout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .boutontel {
+        border: #E52165 solid 3px;
+        border-radius: 15px;
+        box-shadow: 0 0 5px rgba(229, 33, 101, 1); 
+        padding: 20px;
+        padding-inline: 30px;
+        transition: 0.5s;
+        color: #E52165;
+    }
 
+    /* page projets pro */
+    .projet2 {
+        padding-bottom: 50px;
+        color: white;
+    }
+
+    .centreinfo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contextee {
+        margin-top: 60px;
+    }
+
+    .informations {
+        margin: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .imagesposition {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .titrehaut {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .centre {
+        position: relative;
+        z-index: 1;
+    }
+
+    .imagecentre {
+        width: 90%;
+        z-index: 1;
+        animation: centre 1s ease-in-out forwards;
+        margin-bottom: 10px;
+    }
+
+    .abso1 {
+        width: 90%;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        top: auto;
+        opacity: 0;
+        animation: aimé 1s ease-in-out forwards;
+        animation-delay: 0.2s;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .abso2 {
+        width: 90%;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        top: auto;
+        opacity: 0;
+        animation: aimé2 1s ease-in-out forwards;
+        animation-delay: 0.5s;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .choix {
+        color: white;
+        display: grid;
+        padding: 20px;
+        width: 80%;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-top: 40px;
+        align-content: center;
+        text-align: center;
+        border-bottom: 1px white solid;
+        animation: pop 0.7s forwards;
+    }
+
+    .parentchoi {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .choixproj:hover {
+        color: #E52165;
+        cursor: pointer;
+    }
+
+    .choixproj2 {
+        color: #E52165;
+    }
+    /* boules */
+
+    .boule {
+        display: none;
+    }
+    
 }
