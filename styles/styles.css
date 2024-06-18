@@ -1203,40 +1203,6 @@ footer {
 
     /* footer du site */
 
-    footer {
-        background: linear-gradient(110deg, #0D1137, #e5216676);
-        display: grid;
-        gap: 40px;
-    }
-
-    .sousfooter {
-        background: linear-gradient(110deg, #0D1137, #e5216676);
-        background-size: cover;
-        background-attachment: fixed;
-        border-top: #fff solid 1px;
-        text-align: center;
-    }
-
-    .contactes {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-
-    .bonjour>.contactes {
-        margin-bottom: 20px;
-    }
-
-    .droite {
-        display: none;
-    }
-
-
-    /* liens du footer */
-
-    .liens2 {
-        font-size: 20px;
-    }
-
     /* bandeau du site */
 
     .bandeau {
