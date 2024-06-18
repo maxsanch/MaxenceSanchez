@@ -32,7 +32,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 101;
+    z-index: 1011;
     top: 0;
     left: 0;
     right: 0;
@@ -978,7 +978,7 @@ footer {
 }
 
 .deroutelo {
-    display: block;
+    display: none;
 }
 
 #petit {
@@ -1068,11 +1068,8 @@ footer {
     }
 }
 
-@media (max-width:600px) {
-    body {
-        font-size: 14px;
-    }
 
+@media (max-width:600px) {
     /* header du site  */
 
     header {
@@ -1100,8 +1097,12 @@ footer {
 
     .deroutel {
         padding: 10%;
-
     }
+
+    .deroutelo {
+        display: block;
+    }
+
 
     .competencesss {
         display: grid;
@@ -1167,7 +1168,7 @@ footer {
     }
 
     .texte {
-        width: 80%;
+        width: 100%;
         margin: auto;
         grid-row: 2;
     }
@@ -1202,6 +1203,95 @@ footer {
     }
 
     /* footer du site */
+
+    footer {
+        background: linear-gradient(#E52165, #0D1137);
+        background-attachment: fixed;
+        background-size: 100%;
+        padding: 10px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sousfooter {
+        background: linear-gradient(#E52165, #0D1137);
+        background-size: cover;
+        background-attachment: fixed;
+        border-top: #fff solid 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .contactes {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .bonjour>.contactes {
+        margin-bottom: 10px;
+    }
+
+    .droite {
+        margin-right: 0;
+        padding-inline: 10px;
+        border-left: none;
+    }
+
+    .liens,
+    .liens2 {
+        margin-left: 0;
+        border-left: none;
+        padding-inline: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .liens2 {
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .lienfooter {
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .lienfooter:hover {
+        color: #fff;
+    }
+
+    .res {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .rese {
+        color: #fff;
+        text-align: center;
+    }
+
+    .rese:hover {
+        color: #E52165;
+    }
+
+    .bonjour {
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bonjour:hover {
+        color: rgb(228, 228, 228);
+    }
 
     /* bandeau du site */
 
@@ -1374,8 +1464,8 @@ footer {
     .lechef {
         display: flex;
         justify-content: center;
-        margin-top: 20px; 
-        margin-bottom: 20px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
         flex-direction: column;
         align-items: center;
     }
@@ -1387,10 +1477,11 @@ footer {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
     .boutontel {
         border: #E52165 solid 3px;
         border-radius: 15px;
-        box-shadow: 0 0 5px rgba(229, 33, 101, 1); 
+        box-shadow: 0 0 5px rgba(229, 33, 101, 1);
         padding: 20px;
         padding-inline: 30px;
         transition: 0.5s;
@@ -1433,16 +1524,28 @@ footer {
     }
 
     .centre {
-        position: relative;
         z-index: 1;
     }
 
     .imagecentre {
         width: 90%;
         z-index: 1;
-        animation: centre 1s ease-in-out forwards;
+        animation: centrepetit 1s ease-in-out forwards;
         margin-bottom: 10px;
     }
+
+    @keyframes centrepetit {
+        from {
+            opacity: 0;
+            transform: translateX(-50%);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
 
     .abso1 {
         width: 90%;
@@ -1498,10 +1601,26 @@ footer {
     .choixproj2 {
         color: #E52165;
     }
+
     /* boules */
 
     .boule {
         display: none;
     }
-    
+
+    .infos2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+
+    .tel2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+        margin-inline: 30px;
+        position: relative;
+        z-index: 2;
+    }
 }
