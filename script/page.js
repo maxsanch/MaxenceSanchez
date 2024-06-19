@@ -14,6 +14,8 @@ document.querySelector('.txt').innerHTML = SAE[dom][LaSAE]['description']
 document.querySelector('#deux').innerHTML= '<img src="../img/imagesprojets/'+dom+'/'+LaSAE+' 3.png" alt="illustration_projet">'
 document.querySelector('#txtdeux').innerHTML = SAE[dom][LaSAE]['étapes']
 
+document.querySelector('#numproj').innerText = SAE[dom][LaSAE]['titre']
+
 
 document.addEventListener("DOMContentLoaded", function() {
     var header = document.querySelector("header");
