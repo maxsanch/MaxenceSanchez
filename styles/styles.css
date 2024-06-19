@@ -182,6 +182,31 @@ span {
     }
 }
 
+
+.reseaux:hover {
+    transform: scale(1.2);
+}
+
+.reseaux::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 100%;
+    background: linear-gradient(45deg, rgba(229, 33, 101, 0.7), rgba(13, 17, 55, 0.7));
+    z-index: -1;
+    transition: opacity 0.4s;
+    opacity: 0;
+    filter: blur(15px);
+}
+
+.reseaux:hover::before {
+    opacity: 1;
+    animation: flexe 2s linear infinite;
+}
+
 .reseaux {
     width: 60px;
     transition: 0.4s;
@@ -374,7 +399,7 @@ footer {
 
 .bandeau {
     min-height: 40vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fabian-irsara-67l-QujB14w-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/ilya-pavlov-OqtafYT5kTw-unsplash\ \(1\).jpg);
     margin-top: 100px;
     margin-bottom: 100px;
     background-size: cover;

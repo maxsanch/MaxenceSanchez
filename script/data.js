@@ -42,7 +42,7 @@ const SAE = {
       "étapes": "<p>Après avoir trouvé le thème du festival, sa plateforme de marque et sa manière d'être, j'ai pu réaliser une maquette Figma afin de, par la suite, développer mon site sur WordPress.</p>"
     },
     "projet 3": {
-      "titre": "Site god of war",
+      "titre": "Site God of War",
       "description": "<p>Nous avons dû réaliser au sein de mon second semestre de BUT MMI, un site dynamique sur le thème de notre choix, c'est alors que j'ai choisi le thème du jeu god of war que j'apprécie beaucoup, nous avons alors utilisé des langages tels que PHP ou SQL ainsi qu'une base de données dans le but de rendre notre site dynamique, via, par exemple, un système de commentaires.</p>",
       "étapes": "<p>Après avoir trouvé le thème du festival, sa plateforme de marque et sa manière d'être, j'ai pu réaliser une maquette Figma afin de, par la suite, développer mon site sur WordPress.</p>"
     },
@@ -54,24 +54,24 @@ const SAE = {
       "étapes": "Dans un premier temps j'ai dû produire des planches d'inspiration afin de trouver une bonne idée, par la suite, nous avons réalisé les motifs sur illustrator afin de, enfin, les mettre en situation par le billet de différents mockups."
     },
     "projet 2": {
-      "titre": "réalisation d'un logo pour une agence de communication",
+      "titre": "Réalisation d'un logo pour une agence de communication",
       "description": "<p>Dans le cadre du projet de communication 360 d'un festival de musique, j'ai été ammené à réaliser un logo sur illustrator pour l'agence de communication s'occupant de la campagne de communication de ce festival.</p><p> Ce logo est celui d'une agence de communication dans l'événementiel, j'ai également dû trouver un nom et créer cette agence. Le nom de lumicom et l'ampoule liée à la lumière sont des idées venues de ma représentation de l'idée (utilisée principalement dans les cartoons).</p>",
       "étapes": "<p>Après la réalisation des planches d'inspiration, j'ai réalisé le logo sur illsutrator, j'ai ensuite du justifier dans le document chacun de mes choix afin d'être prêt pour le rendu.</p>"
     },
     "projet 3": {
-      "titre": "réalisation d'un logo pour une boisson énergisante",
+      "titre": "Réalisation d'un logo pour une boisson énergisante",
       "description": "<p>Dans le cadre du projet de communication sur une boisson énergétique, j'ai été ammené à réaliser le logo pour cette dernière, j'ai alors choisi de créer un logo représentant un phoenix, une mise à jour de l'ancien logo proposé.</p><p> Le phoenix qui renaît de ses cendres afin de créer Fire Up, les couleurs montrent le côté écoresponsable par le vert mais aussi l'énergie par le orange.</p>",
       "étapes": "<p>J'ai d'abord proposé des esquisses au crayon afin de visualiser le logo final, par la suite je suis allé sur Illustrator afin de réaliser le logo final de la boisson.</p>"
     },
   },
   "divers": {
     "projet 1": {
-      "titre": "création d'une fake news dans le cadre d'un projet.",
+      "titre": "Création d'une fake news dans le cadre d'un projet.",
       "description": "<p>Le but de cet exercice était de créer une fake news pour des enfants agés entre 8 et 13 ans, le but était que cette dernière soit crédible pour que, la page suivante, une leçon de fact cheking soit donnée.</p>",
       "étapes": "<p>Après avoir trouvé l'idée principale, adaptée pour le public visé, j'ai pu commencer à rédiger la fake news, par la suite, mon binôme avec lequel j'étais pour cette fake news, nommée Marie Raffath à réaliser la mise en page de cette dernière.</p>"
     },
     "projet 2": {
-      "titre": "analyse d'un site web sous différents angles.",
+      "titre": "Analyse d'un site web sous différents angles.",
       "description": "<p>Nous avons dû analyser un site web sur plusieurs aspects, technique, ergonomique, design, sémiologique, contextuel.</p>",
       "étapes": "<p>Les analyses citées précédemments ont été faites une par une, nous avons pu également faire une analyse SEO de ce site durant le processus.</p>",
     },
@@ -81,33 +81,33 @@ const SAE = {
 
 const perso = {
   "dessin": {
-    "dessin 1": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, ce dessin date à présent de 2022 et des réalisations plus récentes seront ajoutées au fil du temps.</p><p>Ce dernier est censé représenter Jim hopper de stranger things, interprété par David Harbour, ayant joué dans black widow ou encore dans Hellboy.</p>",
-    "dessin 2": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin, plus récent que celui de Jim Hopper est encore en cours, la face de gauche n'étant pas encore terminée .</p><p>Ce dernier est censé représenter Kratos, un personnage emblématique de la licence God of war, dans ce dessin, Kratos est inspiré des opus 4 et 5 de la série du même nom.</p>",
-    "dessin 3": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de 2022.</p><p>Ce dernier est censé représenter Le professeur ou Sergio Marquina, un personnage emblématique de la Casa de Papel, interprété par Álvaro Morte, principalement connu pour cette série, on peut le retrouver dans La matela.</p>",
-    "dessin 4": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de mai 2023.</p><p>Ce dernier est censé représenter Shigaraki Tomura, l'un des antagonistes principaux de la série d'animation My hero acadamia.</p>",
-    "dessin 5": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de janvier 2023.</p><p>Ce dernier est censé représenter Tony Stark ou Iron man, interprété par Robert Downey Jr. ayant également joué dans des films tels que Sherlock Holmes 2009 ou plus récemment Oppenheimer.</p>",
-    "dessin 6": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de mars 2023.</p><p>Ce dernier est censé représenter Thomas Shelby, de la série Peaky Blinders, interprété par Cillian Murphy ayant également joué joué dans Oppenheimer.</p>",
-    "dessin 7": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de 2022.</p><p>Ce dernier est censé représenter Yuta Okkotsu, de la série d'animation Jujutsu Kaisen.</p>",
+    "Jim Hopper": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, ce dessin date à présent de 2022 et des réalisations plus récentes seront ajoutées au fil du temps.</p><p>Ce dernier est censé représenter Jim hopper de stranger things, interprété par David Harbour, ayant joué dans black widow ou encore dans Hellboy.</p>",
+    "Kratos": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin, plus récent que celui de Jim Hopper est encore en cours, la face de gauche n'étant pas encore terminée .</p><p>Ce dernier est censé représenter Kratos, un personnage emblématique de la licence God of war, dans ce dessin, Kratos est inspiré des opus 4 et 5 de la série du même nom.</p>",
+    "Le professeur": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de 2022.</p><p>Ce dernier est censé représenter Le professeur ou Sergio Marquina, un personnage emblématique de la Casa de Papel, interprété par Álvaro Morte, principalement connu pour cette série, on peut le retrouver dans La matela.</p>",
+    "Shigaraki": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de mai 2023.</p><p>Ce dernier est censé représenter Shigaraki Tomura, l'un des antagonistes principaux de la série d'animation My hero acadamia.</p>",
+    "Tony Stark": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de janvier 2023.</p><p>Ce dernier est censé représenter Tony Stark ou Iron man, interprété par Robert Downey Jr. ayant également joué dans des films tels que Sherlock Holmes 2009 ou plus récemment Oppenheimer.</p>",
+    "Thomas Shelby": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de mars 2023.</p><p>Ce dernier est censé représenter Thomas Shelby, de la série Peaky Blinders, interprété par Cillian Murphy ayant également joué joué dans Oppenheimer.</p>",
+    "Yuta Okkutsu": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de 2022.</p><p>Ce dernier est censé représenter Yuta Okkotsu, de la série d'animation Jujutsu Kaisen.</p>",
   },
   "TroisD": {
-    "3D 1": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version automnale de cet arbre.</p>",
-    "3D 2": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version estivale de cet arbre.</p>",
-    "3D 3": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version hivernale de cet arbre.</p>",
-    "3D 4": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cet arbre.</p>",
-    "3D 5": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cet arbre.</p>",
+    "Automne": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version automnale de cet arbre.</p>",
+    "Ete": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version estivale de cet arbre.</p>",
+    "Hiver": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version hivernale de cet arbre.</p>",
+    "Printemp 1": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cet arbre.</p>",
+    "Printemp 2": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cet arbre.</p>",
   },
   "photo": {
     "photo 1": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un Loup à crinière.</p>",
     "photo 2": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un suricate.</p>",
     "photo 3": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un suricate.</p>",
     "photo 4": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un panda roux.</p>",
-    "photo 5": "Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un tigre de Sibérie.</p>",
-    "photo 6": "Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un pélican.</p>",
-    "photo 7": "Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un suricate.</p>",
-    "photo 8": "Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un suricate.</p>",
-    "photo 9": "Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un loup.</p>",
-    "photo 10": "Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un loup.</p>",
-    "photo 11": "Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un corbeau.</p>",
-    "photo 12": "Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un loup.</p>",
+    "photo 5": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un tigre de Sibérie.</p>",
+    "photo 6": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un pélican.</p>",
+    "photo 7": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un suricate.</p>",
+    "photo 8": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un suricate.</p>",
+    "photo 9": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un loup.</p>",
+    "photo 10": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un loup.</p>",
+    "photo 11": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un corbeau.</p>",
+    "photo 12": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un loup.</p>",
   },
 }

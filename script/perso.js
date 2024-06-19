@@ -3,7 +3,7 @@
 let photos = ""
 
 for (let pho in perso["photo"]) {
-  photos += '<a href="projetperso2.html?number=' + pho + '"><img src="../img/photos/' + pho + '.jpg" class="perso" alt="photo"></img></a>'
+  photos += '<a href="projetperso2.html?domaine=photo&number=' + pho + '"><img src="../img/photos/' + pho + '.jpg" class="perso" alt="photo"></img></a>'
 }
 
 document.querySelector("#photo").innerHTML = photos
@@ -11,7 +11,7 @@ document.querySelector("#photo").innerHTML = photos
 let dessins = ""
 
 for (let des in perso["dessin"]) {
-  dessins += '<a href="projetperso2.html?number=' + des + '"><img src="../img/dessins/' + des + '.jpg" class="perso" alt="photo"></img></a>'
+  dessins += '<a href="projetperso2.html?domaine=dessin&number=' + des + '"><img src="../img/dessins/' + des + '.jpg" class="perso" alt="photo"></img></a>'
 }
 
 document.querySelector("#dessins").innerHTML = dessins
@@ -19,7 +19,7 @@ document.querySelector("#dessins").innerHTML = dessins
 let trois = ""
 
 for (let t in perso["TroisD"]) {
-  trois += '<a href="projetperso2.html?number=' + t + '"><img src="../img/3D/' + t + '.jpg" class="perso" alt="photo"></img></a>'
+  trois += '<a href="projetperso2.html?domaine=trois&number=' + t + '"><img src="../img/3D/' + t + '.jpg" class="perso" alt="photo"></img></a>'
 }
 
 document.querySelector("#marchestp").innerHTML = trois
