@@ -781,7 +781,8 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 15vh;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+    text-align: center;
 }
 
 
@@ -1122,13 +1123,10 @@ footer {
 
     .flexeee {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
     }
 
-    .compet>.molière:nth-child(1) {
-        grid-row: 2/ span 2;
-    }
 
     .moliere {
         display: flex;
@@ -1157,8 +1155,9 @@ footer {
 
     .infos {
         display: grid;
-        grid-template-rows: 1fr auto;
-        margin: none;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .illus {
@@ -1168,12 +1167,8 @@ footer {
 
     .texte {
         width: 100%;
-        margin: none;
+        margin: auto;
         grid-row: 2;
-    }
-    .titre{
-        display: flex;
-        justify-content: center;
     }
 
 
@@ -1193,16 +1188,16 @@ footer {
     }
 
     .prenom {
-        margin-top: 15%;
-        font-size: 18px;
+        margin-top: 25%;
+        font-size: 11px;
     }
 
     .nom {
-        font-size: 18px;
+        font-size: 11px;
     }
 
     .domaine {
-        font-size: 30px;
+        font-size: 16px;
     }
 
     /* footer du site */
@@ -1352,7 +1347,7 @@ footer {
 
     .trois {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         margin-inline: 40px;
         gap: 30px;
     }
@@ -1465,27 +1460,26 @@ footer {
 
     /* contacts */
     .lechef {
-        display: flex;
-        justify-content: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         flex-direction: column;
         align-items: center;
     }
 
     .letout {
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 15px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .boutontel {
         border: #E52165 solid 3px;
         border-radius: 15px;
         box-shadow: 0 0 5px rgba(229, 33, 101, 1);
-        padding: 20px;
+        padding: 50px;
+        font-size: 20px;
         padding-inline: 30px;
         transition: 0.5s;
         color: #E52165;
@@ -1609,36 +1603,38 @@ footer {
 
     .boule {
         display: none;
-        padding: 0;
     }
 
     .infos2 {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 60px;
+        gap: 20px;
     }
 
 
     .tel2 {
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
+        margin-inline: 30px;
         position: relative;
         z-index: 2;
-        margin-inline: 20px;
-        margin-bottom: 30px;
     }
 
-    .centrage {
-        overflow-x: hidden;
+
+    #premier{
+        animation: none;
+        opacity: 1;
+    }
+    #deux{
+        animation: none;
+        opacity: 1;
     }
 
-    .txt {
-        font-size: 25px;
-        width: 80%;
-        margin: auto;
+    .centrage{
+        margin-bottom: 20px;
     }
 }
-
 
 @media (max-width:600px) {
     /* header du site  */
@@ -1728,21 +1724,23 @@ footer {
 
     .infos {
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         margin-top: 5%;
         margin-bottom: 5%;
-        align-content: center;
     }
 
     .illus {
         width: 80%;
-        margin: none;
+        margin: auto;
     }
 
     .texte {
         width: 100%;
         margin: auto;
         grid-row: 2;
+    }
+    .margi{
+        margin-inline: 30px;
     }
 
 
@@ -1771,7 +1769,7 @@ footer {
     }
 
     .domaine {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     /* footer du site */
@@ -2028,16 +2026,24 @@ footer {
 
     .texte2 {
         width: auto;
+        font-size: 20px;
         color: white;
     }
 
-
+    .titrehaut{
+        text-align: center;
+        font-size: 16px;
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
     /* contacts */
     .lechef {
         display: flex;
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-inline: 20px;
         flex-direction: column;
         align-items: center;
     }
@@ -2074,7 +2080,10 @@ footer {
     }
 
     .contextee {
-        margin-top: 60px;
+        margin-top: 40px;
+    }
+    .parenta{
+        margin-top: 110px;
     }
 
     .informations {
@@ -2178,26 +2187,35 @@ footer {
 
     .boule {
         display: none;
-        padding: 0;
     }
 
     .infos2 {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 60px;
+        gap: 20px;
     }
 
 
     .tel2 {
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
+        margin-inline: 30px;
         position: relative;
         z-index: 2;
-        margin-inline: 20px;
-        margin-bottom: 30px;
     }
 
-    .centrage {
-        overflow-x: hidden;
+
+    #premier{
+        animation: none;
+        opacity: 1;
+    }
+    #deux{
+        animation: none;
+        opacity: 1;
+    }
+
+    .centrage{
+        margin-bottom: 20px;
     }
 }
