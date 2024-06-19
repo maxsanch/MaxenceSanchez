@@ -1123,13 +1123,10 @@ footer {
 
     .flexeee {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
     }
 
-    .compet>.molière:nth-child(1) {
-        grid-row: 2/ span 2;
-    }
 
     .moliere {
         display: flex;
@@ -1463,27 +1460,26 @@ footer {
 
     /* contacts */
     .lechef {
-        display: flex;
-        justify-content: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         flex-direction: column;
         align-items: center;
     }
 
     .letout {
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 15px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .boutontel {
         border: #E52165 solid 3px;
         border-radius: 15px;
         box-shadow: 0 0 5px rgba(229, 33, 101, 1);
-        padding: 20px;
+        padding: 50px;
+        font-size: 20px;
         padding-inline: 30px;
         transition: 0.5s;
         color: #E52165;
@@ -1728,7 +1724,7 @@ footer {
 
     .infos {
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -1742,6 +1738,9 @@ footer {
         width: 100%;
         margin: auto;
         grid-row: 2;
+    }
+    .margi{
+        margin-inline: 30px;
     }
 
 
@@ -2027,16 +2026,24 @@ footer {
 
     .texte2 {
         width: auto;
+        font-size: 20px;
         color: white;
     }
 
-
+    .titrehaut{
+        text-align: center;
+        font-size: 16px;
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
     /* contacts */
     .lechef {
         display: flex;
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-inline: 20px;
         flex-direction: column;
         align-items: center;
     }
@@ -2073,7 +2080,10 @@ footer {
     }
 
     .contextee {
-        margin-top: 60px;
+        margin-top: 40px;
+    }
+    .parenta{
+        margin-top: 110px;
     }
 
     .informations {
