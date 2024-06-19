@@ -792,6 +792,9 @@ footer {
     font-size: 20px;
     margin-top: 150px;
 }
+#nan{
+    margin-top: 30px;
+}
 
 .rose {
     color: #E52165;
@@ -2085,6 +2088,7 @@ footer {
     .parenta{
         margin-top: 110px;
     }
+
 
     .informations {
         margin: 20px;
