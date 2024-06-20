@@ -44,7 +44,7 @@ const SAE = {
     "projet 3": {
       "titre": "Site God of War",
       "description": "<p>Nous avons dû réaliser au sein de mon second semestre de BUT MMI, un site dynamique sur le thème de notre choix, c'est alors que j'ai choisi le thème du jeu god of war que j'apprécie beaucoup, nous avons alors utilisé des langages tels que PHP ou SQL ainsi qu'une base de données dans le but de rendre notre site dynamique, via, par exemple, un système de commentaires.</p>",
-      "étapes": "<p>Afin de réaliser le site web pour ce projet, j'ai d'abord du chercher de l'inspiration en me basant sur le jeu original, par la suite, j'ai réaliser mon site d'abord en front end pour les pages principales avant de mettre en place ma base de donnée afin de, enfin, réaliser le site et lier ma base au php.</p>"
+      "étapes": "<p>Afin de réaliser le site web pour ce projet, j'ai d'abord dû chercher de l'inspiration en me basant sur le jeu original, par la suite, j'ai réalisé mon site d'abord en front end pour les pages principales avant de mettre en place ma base de données afin de, enfin, réaliser le site et lier ma base au PHP.</p>"
     },
   },
   "graphisme": {
